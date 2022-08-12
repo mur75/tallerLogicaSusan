@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img class="navbar-brand" href="index.html"><img class="w-25" src="assets/img/logoJs.jpg"></img> TALLER DE LÓGICA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="punto1.html">punto1</a></li>
+                            <li><a class="dropdown-item" href="punto2.html">punto2</a></li>
+                            <li><a class="dropdown-item" href="punto3.html">punto3</a></li>
+                            <li><a class="dropdown-item" href="punto4.html">punto4</a></li>
+                            <li><a class="dropdown-item" href="punto5.html">punto5</a></li>
+                            <li><a class="dropdown-item" href="punto6.html">punto6</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container m-5">
+        <h2> El valor de la mattícula para este semestre es 1.000.000, por favor ingrese su promedio para calular el descuento</h2>
+        <label for="">Escriba el promedio del último semestre</label>
+        <input type="number"  id="promedio">
+        <button type="button" class="btn btn-outline-info" onclick="calculoDescuento()"> Calular</button>
+        <h3>El valor de su mtrícula es <span id="resultadoMatricula"> </span></h3>
+    </div>
+
+
+
+</body>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/index.js "></script>
+
+</html>
